@@ -1,5 +1,5 @@
 {
-  "name": "mp-admin-backend",
+  "name": "ts-typeorm-openapi-express",
   "version": "1.0.0",
   "main": "build/src/server.js",
   "private": true,
