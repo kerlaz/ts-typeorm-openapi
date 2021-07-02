@@ -1,0 +1,18 @@
+{
+  "entryFile": "src/app.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["src/controllers/*Controller.ts"],
+  "spec": {
+    "outputDirectory": "build",
+    "specVersion": 3,
+    "basePath": "/"
+  },
+  "routes": {
+    "authenticationModule": "src/middleware/auth.ts",
+    "routesDir": "routes",
+    "basePath": "/"
+  },
+  "ignore": [
+    "src/models/**"
+  ]
+}

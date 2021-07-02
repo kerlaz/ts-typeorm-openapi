@@ -1,0 +1,6 @@
+/.idea
+/node_modules
+/build
+.env
+/routes/routes.ts
+*/**/*.sqlite
